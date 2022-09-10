@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media </title>
+</head>
+<body>
+    <script>
+        var valor1= parseFloat(prompt("Digite o 1° nota entre 1 e 10"))
+        var valor2= parseFloat(prompt("Digite o 2° nota entre 1 e 10"))
+        var valor3= parseFloat(prompt("Digite o 3° nota entre 1 e 10"))
+        var valor4= parseFloat(prompt("Digite o 4° nota entre 1 e 10"))
+        var valor5= parseFloat(prompt("Digite o 5° nota entre 1 e 10"))
+        var valor6= parseFloat(prompt("Digite o 6° nota entre 1 e 10"))
+        var media = (valor1+valor2+valor3+valor4+valor5+valor6)/6
+
+        if(valor1 <0 || valor1 >10 ){
+            valor1=parseFloat(prompt("Digite o 1° nota novamente, valor digitado anteriormente é invalido"))
+        }
+        if(valor2 <0 || valor2 >10 ){
+            valor2=parseFloat(prompt("Digite o 2° nota novamente, valor digitado anteriormente é invalido"))
+        }
+        if(valor3 <0 || valor3 >10 ){
+            valor3=parseFloat(prompt("Digite o 3° nota novamente, valor digitado anteriormente é invalido"))
+        }
+        if(valor4 <0 || valor4 >10 ){
+            valor4=parseFloat(prompt("Digite o 4° nota novamente, valor digitado anteriormente é invalido"))
+        }
+        if(valor5 <0 || valor5 >10 ){
+            valor5=parseFloat(prompt("Digite o 5° nota novamente, valor digitado anteriormente é invalido"))
+        }
+        if(valor6 <0 || valor6 >10 ){
+            valor6=parseFloat(prompt("Digite o 6° nota novamente, valor digitado anteriormente é invalido"))
+        }
+
+      document.write("A média das notas informadas é  :"+media)
+
+    </script>
+
+</body>
+</html>

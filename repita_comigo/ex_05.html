@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media entre os a soma que os numeros pediu</title>
+</head>
+<body>
+    <script>
+    var primeiro = parseInt(prompt("Digite um numero de 1 a 5"))
+    var ultimo = parseInt(prompt("Digite um numero entre 6 e 10"))
+    var sub= ultimo-primeiro
+    var soma = 0;
+
+
+    while(primeiro < ultimo){
+        primeiro += 1;
+        soma+= primeiro;
+
+    }
+    console.log(primeiro);
+    console.log(soma)
+    var media = parseInt(soma/sub);
+
+
+    alert("A media entre os números digitados é:  "+ media)
+    </script>
+</body>
+</html>
